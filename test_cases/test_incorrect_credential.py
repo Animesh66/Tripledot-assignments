@@ -6,6 +6,9 @@ from Utilities.data_provider import get_data
 
 
 class TestIncorrectCred(BaseTest):
+    """
+    This negative test will verify if a user tries to log in with an invalid username and/or password they must get a correct error message.
+    """
     @pytest.mark.regression
     @pytest.mark.invalid_cred
     def test_happy_path(self, appium_driver):
