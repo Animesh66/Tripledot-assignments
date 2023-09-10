@@ -6,6 +6,9 @@ from Utilities.data_provider import get_data
 
 
 class TestIncorrectCred(BaseTest):
+    """
+    This is a negative test case which will validate the error message is correct if an user input invalid email or password.
+    """
     @pytest.mark.regression
     @pytest.mark.invalid_cred
     def test_happy_path(self, appium_driver):

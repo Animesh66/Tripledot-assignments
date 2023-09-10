@@ -4,19 +4,19 @@ from allure_commons.types import AttachmentType
 from appium import webdriver
 from appium.webdriver.appium_service import AppiumService
 
-APPIUM_PORT = 4723
-APPIUM_HOST = '127.0.0.1'
+APPIUM_PORT = 4723  # This is the default port where the appium will be started.
+APPIUM_HOST = '127.0.0.1' # This is the default host where we want to run appium server.
 
 
 @pytest.fixture(scope='class')
 def appium_driver(request):
     """
     Fixture to start appium and launch the app
-    :param request:
-    :return:
+    :param request: take the request as a parameters
+    :return: returns the driver object 
     """
     appium_service = AppiumService()
-    appium_service.start(args=['--address', APPIUM_HOST, '-p', str(APPIUM_PORT)], timeout_ms=20000)
+    appium_service.start(args=['--address', APPIUM_HOST, '-p', str(APPIUM_PORT)], timeout_ms=20000) # Passing aorgument to start the appium server on default port and default host.
     print(appium_service.is_running)
     desired_caps = dict(
         platformName='Android',
