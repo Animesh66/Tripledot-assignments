@@ -7,7 +7,7 @@ from Utilities.data_provider import get_data
 
 class TestVerifyHappyPathScenario(BaseTest):
     """
-    This is a positive test whihc will navigate to the desired hotel and verify the price per night is correct or not.
+    This is a positive test that will navigate to the desired hotel screen and verify whether the price per night matches the assertion given in the test.
     """
     @pytest.mark.regression
     @pytest.mark.happy_path
