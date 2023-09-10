@@ -7,6 +7,10 @@ from appium.webdriver.appium_service import AppiumService
 APPIUM_PORT = 4723  # This is the default port where the appium will be started.
 APPIUM_HOST = '127.0.0.1' # This is the default host where we want to run appium server.
 
+"""
+This confitest.py file is a globally accessible file by pytest framework. We are writing the setup and tear-down methods in this file and call 
+this fixtures(pytest) in a test method to reduce code duplication.
+"""
 
 @pytest.fixture(scope='class')
 def appium_driver(request):
