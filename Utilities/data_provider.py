@@ -3,6 +3,9 @@ from pathlib import Path
 
 
 def get_data(sheet_name):
+    """
+    This is an utility method which will read data from the input excel files.
+    """
     current_dir = Path().absolute().parent
     workbook = openpyxl.load_workbook(
         f"{current_dir}/Test_Data/appium_data.xlsx")  # This will work for MAC need to change for Windows

@@ -1,5 +1,7 @@
 import openpyxl
-
+"""
+This module contains functins which will perfrom excel operations. 
+"""
 
 def get_row_count(path, sheet_name):
     workbook = openpyxl.load_workbook(path)
