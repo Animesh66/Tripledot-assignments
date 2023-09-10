@@ -1,0 +1,7 @@
+*.DS_Store
+*.log
+.idea/
+bin/
+.pytest_cache/
+test_code.py
+Reports/
