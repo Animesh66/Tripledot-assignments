@@ -1,22 +1,42 @@
-2023-09-05 21:31:15,499 - BasePage.py:[32] - [INFO] - Clicking on the element: continue_with_email_id
-2023-09-05 21:41:16,890 - BasePage.py:[32] - [INFO] - Clicking on the element: continue_with_email_id
-2023-09-05 21:43:16,507 - BasePage.py:[32] - [INFO] - Clicking on the element: continue_with_email_id
-2023-09-05 21:44:50,467 - BasePage.py:[32] - [INFO] - Clicking on the element: continue_with_email_id
-2023-09-05 21:45:02,101 - BasePage.py:[62] - [INFO] - Typing on the element: android.widget.EditText entered the value as: set123@email.com
-2023-09-05 21:45:06,477 - BasePage.py:[32] - [INFO] - Clicking on the element: continue_button_id
-2023-09-05 21:45:12,640 - BasePage.py:[32] - [INFO] - Clicking on the element: continue_button_id
-2023-09-05 21:49:52,175 - BasePage.py:[32] - [INFO] - Clicking on the element: continue_with_email_id
-2023-09-05 21:50:35,814 - BasePage.py:[62] - [INFO] - Typing on the element: android.widget.EditText entered the value as: set123@email.com
-2023-09-05 21:52:26,281 - BasePage.py:[32] - [INFO] - Clicking on the element: continue_with_email_id
-2023-09-05 21:53:01,329 - BasePage.py:[62] - [INFO] - Typing on the element: email_text_box_class entered the value as: set123@email.com
-2023-09-05 21:53:11,495 - BasePage.py:[32] - [INFO] - Clicking on the element: continue_button_id
-2023-09-05 21:53:19,259 - BasePage.py:[32] - [INFO] - Clicking on the element: continue_button_id
-2023-09-05 21:53:26,796 - BasePage.py:[32] - [INFO] - Clicking on the element: deny_notification_id
-2023-09-05 21:55:09,386 - BasePage.py:[32] - [INFO] - Clicking on the element: continue_with_email_id
-2023-09-05 21:55:10,491 - BasePage.py:[62] - [INFO] - Typing on the element: email_text_box_class entered the value as: nitai9093@email.com
-2023-09-05 21:55:11,315 - BasePage.py:[32] - [INFO] - Clicking on the element: continue_button_id
-2023-09-05 21:55:14,549 - BasePage.py:[32] - [INFO] - Clicking on the element: continue_button_id
-2023-09-05 21:55:17,678 - BasePage.py:[32] - [INFO] - Clicking on the element: deny_notification_id
-2023-09-05 22:06:49,230 - BasePage.py:[32] - [INFO] - Clicking on the element: continue_with_email_id
-2023-09-05 22:06:50,513 - BasePage.py:[62] - [INFO] - Typing on the element: email_text_box_class entered the value as: nitai9093@email.com
-2023-09-05 22:06:51,337 - BasePage.py:[32] - [INFO] - Clicking on the element: continue_button_id
+2023-09-10 18:17:57,525 - BasePage.py:[32] - [INFO] - Clicking on the element: continue_with_email_id
+2023-09-10 18:17:57,623 - BasePage.py:[62] - [INFO] - Typing on the element: email_text_box_class entered the value as: sheree@email.com
+2023-09-10 18:17:58,427 - BasePage.py:[32] - [INFO] - Clicking on the element: continue_button_id
+2023-09-10 18:18:01,548 - BasePage.py:[32] - [INFO] - Clicking on the element: continue_button_id
+2023-09-10 18:18:04,672 - BasePage.py:[32] - [INFO] - Clicking on the element: deny_notification_id
+2023-09-10 18:20:28,331 - BasePage.py:[32] - [INFO] - Clicking on the element: continue_with_email_id
+2023-09-10 18:20:28,456 - BasePage.py:[62] - [INFO] - Typing on the element: email_text_box_class entered the value as: sheree@email.com
+2023-09-10 18:20:29,271 - BasePage.py:[32] - [INFO] - Clicking on the element: continue_button_id
+2023-09-10 18:22:16,923 - BasePage.py:[32] - [INFO] - Clicking on the element: continue_with_email_id
+2023-09-10 18:22:18,004 - BasePage.py:[62] - [INFO] - Typing on the element: email_text_box_class entered the value as: validuser12@email.com
+2023-09-10 18:22:18,840 - BasePage.py:[32] - [INFO] - Clicking on the element: continue_button_id
+2023-09-10 18:22:23,707 - BasePage.py:[32] - [INFO] - Clicking on the element: continue_button_id
+2023-09-10 18:22:26,872 - BasePage.py:[32] - [INFO] - Clicking on the element: deny_notification_id
+2023-09-10 18:47:13,210 - BasePage.py:[32] - [INFO] - Clicking on the element: continue_with_email_id
+2023-09-10 18:47:13,795 - BasePage.py:[62] - [INFO] - Typing on the element: email_text_box_class entered the value as: validuser56@email.com
+2023-09-10 18:47:14,625 - BasePage.py:[32] - [INFO] - Clicking on the element: continue_button_id
+2023-09-10 18:47:17,783 - BasePage.py:[32] - [INFO] - Clicking on the element: continue_button_id
+2023-09-10 18:47:25,557 - BasePage.py:[32] - [INFO] - Clicking on the element: deny_notification_id
+2023-09-10 18:49:43,718 - BasePage.py:[32] - [INFO] - Clicking on the element: continue_with_email_id
+2023-09-10 18:49:44,289 - BasePage.py:[62] - [INFO] - Typing on the element: email_text_box_class entered the value as: validuser1256@email.com
+2023-09-10 18:49:45,126 - BasePage.py:[32] - [INFO] - Clicking on the element: continue_button_id
+2023-09-10 18:49:48,288 - BasePage.py:[32] - [INFO] - Clicking on the element: continue_button_id
+2023-09-10 18:49:53,962 - BasePage.py:[32] - [INFO] - Clicking on the element: deny_notification_id
+2023-09-10 18:51:21,828 - BasePage.py:[32] - [INFO] - Clicking on the element: continue_with_email_id
+2023-09-10 18:51:22,891 - BasePage.py:[62] - [INFO] - Typing on the element: email_text_box_class entered the value as: validuser2345@email.com
+2023-09-10 18:51:23,715 - BasePage.py:[32] - [INFO] - Clicking on the element: continue_button_id
+2023-09-10 18:51:26,865 - BasePage.py:[32] - [INFO] - Clicking on the element: continue_button_id
+2023-09-10 18:51:35,716 - BasePage.py:[32] - [INFO] - Clicking on the element: deny_notification_id
+2023-09-10 18:55:54,452 - BasePage.py:[32] - [INFO] - Clicking on the element: continue_with_email_id
+2023-09-10 18:55:55,082 - BasePage.py:[62] - [INFO] - Typing on the element: email_text_box_class entered the value as: validuser5678@email.com
+2023-09-10 18:55:55,920 - BasePage.py:[32] - [INFO] - Clicking on the element: continue_button_id
+2023-09-10 18:55:59,068 - BasePage.py:[32] - [INFO] - Clicking on the element: continue_button_id
+2023-09-10 18:56:05,125 - BasePage.py:[32] - [INFO] - Clicking on the element: deny_notification_id
+2023-09-10 18:58:47,265 - BasePage.py:[32] - [INFO] - Clicking on the element: continue_with_email_id
+2023-09-10 18:58:47,842 - BasePage.py:[62] - [INFO] - Typing on the element: email_text_box_class entered the value as: validuser0981@email.com
+2023-09-10 18:58:48,677 - BasePage.py:[32] - [INFO] - Clicking on the element: continue_button_id
+2023-09-10 18:58:51,824 - BasePage.py:[32] - [INFO] - Clicking on the element: continue_button_id
+2023-09-10 18:59:03,372 - BasePage.py:[32] - [INFO] - Clicking on the element: deny_notification_id
+2023-09-10 18:59:11,544 - BasePage.py:[32] - [INFO] - Clicking on the element: type_of_travellers_uiautomator
+2023-09-10 18:59:14,114 - BasePage.py:[32] - [INFO] - Clicking on the element: family_uiautomator
+2023-09-10 18:59:30,478 - BasePage.py:[32] - [INFO] - Clicking on the element: selected_hotel_uiautomator
+2023-09-10 18:59:33,853 - BasePage.py:[77] - [INFO] - Getting text from an element: per_night_charge_id
