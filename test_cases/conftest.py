@@ -15,9 +15,9 @@ def appium_driver(request):
     :param request:
     :return:
     """
-    # appium_service = AppiumService()
-    # appium_service.start(args=['--address', APPIUM_HOST, '-p', str(APPIUM_PORT)], timeout_ms=20000)
-    # print(appium_service.is_running)
+    appium_service = AppiumService()
+    appium_service.start(args=['--address', APPIUM_HOST, '-p', str(APPIUM_PORT)], timeout_ms=20000)
+    print(appium_service.is_running)
     desired_caps = dict(
         platformName='Android',
         platformVersion='13',
@@ -32,7 +32,7 @@ def appium_driver(request):
     driver.implicitly_wait(10)
     yield driver
     driver.quit()
-    # appium_service.stop()
-    # print(appium_service.is_running)
+    appium_service.stop()
+    print(appium_service.is_running)
 
 
