@@ -5,6 +5,9 @@ from Utilities.data_provider import get_data
 
 
 class SignInScreen(BasePage):
+    """
+    This class contains the methods that are required when the user navigates to Sign In screen after providing the email id not previously used.
+    """
     def __init__(self, driver):
         super().__init__(driver)
 
