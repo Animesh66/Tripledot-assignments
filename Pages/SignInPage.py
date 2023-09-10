@@ -5,10 +5,6 @@ from Utilities.data_provider import get_data
 
 
 class SignInScreen(BasePage):
-    """
-    This is theSign In page which is opened when user provided the email of his and click on confinue button.
-    All the method written here are strictly present in Sign In page only.
-    """
     def __init__(self, driver):
         super().__init__(driver)
 
@@ -23,7 +19,7 @@ class SignInScreen(BasePage):
         self.click("title_id")
 
     def fill_password(self, data):
-        self.type("android.widget.EditText", data=data)
+        self.type("password_text_box_id", data=data)
 
     def verify_error_message(self):
         error_message = self.get_text("invalid_password_text_id")
