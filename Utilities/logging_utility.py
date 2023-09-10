@@ -15,7 +15,7 @@ class Logger():
         current_dir = Path().absolute().parent
         fmt = logging.Formatter('%(asctime)s - %(filename)s:[%(lineno)s] - [%(levelname)s] - %(message)s')
         curr_time = time.strftime("%Y-%m-%d")
-        self.LogFileName = f"{current_dir}/Logs/log{curr_time}.txt"
+        self.LogFileName = f"{current_dir}/Logs/log{curr_time}.log"
         # "a" to append the logs in same file, "w" to generate new logs and delete old one
         fh = logging.FileHandler(self.LogFileName, mode="a")
         fh.setFormatter(fmt)
