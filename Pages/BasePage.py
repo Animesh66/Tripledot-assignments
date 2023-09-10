@@ -8,6 +8,10 @@ log = Logger(__name__, logging.INFO)
 
 
 class BasePage:
+    """
+    This is the base page class contains all the common user operations required.
+    The framewrok used is Page Object Model and this base page will be inheriated all other pages.
+    """
 
     def __init__(self, driver):
         self.driver = driver

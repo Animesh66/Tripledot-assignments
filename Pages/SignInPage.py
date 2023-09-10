@@ -5,6 +5,10 @@ from Utilities.data_provider import get_data
 
 
 class SignInScreen(BasePage):
+    """
+    This is theSign In page which is opened when user provided the email of his and click on confinue button.
+    All the method written here are strictly present in Sign In page only.
+    """
     def __init__(self, driver):
         super().__init__(driver)
 
